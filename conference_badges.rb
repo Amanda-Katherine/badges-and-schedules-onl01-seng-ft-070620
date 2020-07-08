@@ -18,8 +18,8 @@ print batch_badge_creator(["Ian", "Laura"])
 
 def assign_rooms(speakers)
   room_numbers = []
-  number = 20
   speakers.each_with_index do |name, number|
+    number = 20
     room_numbers << "Hello, #{name}! You'll be assigned to room #{number + 1}!"
   end
   room_numbers
