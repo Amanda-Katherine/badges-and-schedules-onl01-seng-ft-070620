@@ -24,4 +24,4 @@ def assign_rooms(speakers)
   room_numbers
 end
 
-print assign_rooms([("Ian", 21), ("Shelby", 243)])
+print assign_rooms([("Ian" 21), ("Shelby" 243)])
